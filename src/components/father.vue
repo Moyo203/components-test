@@ -5,6 +5,7 @@
       <!-- 3、动态绑定，这里的myname是和子级的命名一致 -->
       <!-- 重点@getname='dname'事件监听 -->
       <son :myname='sonname' @getname='dname'></son>
+      <sister></sister>
 
   </div>
 </template>
@@ -12,6 +13,7 @@
 <script>
 // 1、这里先引进子级
 import son from '@/components/son.vue'
+import sister from '@/components/sister.vue'
 export default {
   data () {
     return {
@@ -21,7 +23,8 @@ export default {
   },
   // 2、注意要注册
   components: {
-    son
+    son,
+    sister
   },
   methods: {
     dname (data) {
