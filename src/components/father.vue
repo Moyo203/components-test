@@ -1,5 +1,6 @@
 <template>
   <div class="father">
+
       <h1>这里是父级</h1>
       <h2>儿子告诉我他女朋友叫{{songfname}}</h2>
       <!-- 3、动态绑定，这里的myname是和子级的命名一致 -->

@@ -1,5 +1,6 @@
 <template>
   <div class="son">
+
       <h2>这里是子级1 -- 儿子</h2>
       <h2>爸爸给我取名为{{myname}}</h2>
       <h2>我的女朋友叫{{mygfname}}</h2>
