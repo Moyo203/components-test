@@ -13,8 +13,8 @@
 //一、父级传递数给子级，爸爸给儿子取名为小明
 <script>
 // 1、这里先引进子级
-import son from '@/components/son.vue'
-import sister from '@/components/sister.vue'
+import son from '@/views/son.vue'
+import sister from '@/views/sister.vue'
 export default {
   data () {
     return {

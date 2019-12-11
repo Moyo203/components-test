@@ -1,7 +1,7 @@
 import Vue from 'vue'
 // import App from './App.vue'
-// import App from '@/components/father.vue'
-import App from '@/components/index.vue'
+// import App from '@/views/father.vue'
+import App from '@/views/index.vue'
 
 Vue.config.productionTip = false
 
